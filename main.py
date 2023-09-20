@@ -260,6 +260,7 @@ def main():
         st.markdown(
             """
                 > Powered by: 🌟🫶🤵🏽‍♂️ [Elysium Innovations](https://www.storydoc.com/2b6bb4f0d5017381b013e06bbe686991/e5734913-b29e-4de7-ba9f-dc7821b1eeb0/64f9b6d6f6664f000bfd26cc) 
+                > _Be Advised: 🚨This AI Agent model **is not** utilizing Internet access in this simplified demonstration._
             """
         )
 
@@ -295,7 +296,7 @@ def main():
                     first_task=first_task,
                     verbose=False,
                 )
-                with st.spinner("👶 BabyAGI 🤖 at work ..."):
+                with st.spinner("🧙🔮 Elysium Wizard 🤖 at work ..."):
                     baby_agi.run(max_iterations=max_iterations)
 
                 st.balloons()
